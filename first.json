@@ -1,0 +1,14 @@
+{
+    "name":"mohit",
+    "score":54,
+    "isAdmin": false,
+    "licence":null,
+    "foodItem": ["food","sunflowerOil","orange"],
+    "myObj":{
+        "name":"Mohit",
+        "section":"d"
+    }
+}
+
+parsed = JSON.parse(myObj);
+parsed["myObj"][2];
